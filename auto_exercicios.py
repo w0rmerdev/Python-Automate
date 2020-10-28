@@ -26,3 +26,5 @@ for i in range(1, numero_exercicios + 1):
         with open(diretoria_nova_pasta + '/' + nome_ficheiro + str(i) + "." + terminacao, "x") as f1:
             
             f1.writelines(lines)
+
+print("Done!!")
